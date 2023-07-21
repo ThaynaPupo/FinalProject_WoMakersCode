@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #000000, #240447, #000000);
+    min-height: 100vh;
+}
+
+.nav {
+    position: fixed;
+    width: 320px;
+    height: 845px;
+    top: 70px;
+    left: 50px;
+    color: #00ffff;
+    font-size: 25px;
+    text-align: justify;
+    border: ridge 5px #00ffff;
+    border-radius: 20px;
+    background-color: #000000;
+    line-height: 90px;
+}
+
+li {
+    list-style: none;
+}
+
+.navImage {
+    position: relative;
+    left: 5px;
+    top: 30px;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    display: inline-block;
+    color: #ff00fe;
+    background-color: black;
+    border: #ff00fe 2px dotted;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 40px;
+}
+
+a:active {
+    display: inline-block;
+    color: white;
+    background-color: #ff00fe;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 40px;
+
+}
+
+.photo {
+    position: fixed;
+    right: 1000px;
+    left: 520px;
+    bottom: 90px;
+    top: 195px;
+    border: ridge 5px #00ffff;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.wo_makers_code {
+    position: fixed;
+    left: 1750px;
+    top: 20px;
+    width: 150px;
+}
+
+.quote {
+    position: fixed;
+    right: 100px;
+    left: 505px;
+    bottom: 780px;
+    top: 70px;
+    text-align: center;
+    color: #00ffff;
+    line-height: 35px;
+
+}
